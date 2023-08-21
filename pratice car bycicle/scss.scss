@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ $orange:orangered;
+ $blue:#3ccbff;
+ $violet:#6b2cf5;
+$red:#db2044;
+
+body{
+
+font-family:italic;
+
+}
+.bycicleadd{
+    
+    width: 100%;
+    position: relative;
+    background-image: url("img/nick-fewings-XXBgxhS_-vc-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.bike{
+    color: rgb(219, 32, 68);
+    display:none;
+    background-image: url("img/nick-fewings-XXBgxhS_-vc-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+    margin-top: 109px;
+    }
+    .bike img{
+        z-index: 23;
+    }
+    .bycicleadd .navbar{ background-color: white;
+        height: 100px;
+width: 0;
+overflow: hidden;         
+        a{
+            font-size: 24px;
+        }
+        span{
+            color: $blue;
+        }
+    }
+
+ li a{
+text-transform: capitalize; 
+}
+.bike .card{
+    background-image: url("img/nick-fewings-XXBgxhS_-vc-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.bike .card h1{
+    color: #db2044;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #3ccbff;
+}
+.bike .card h2{
+    color: rgb(0, 110, 255);
+    text-transform: uppercase;
+}
+.bike h3{
+    text-align: center;
+    position: relative;
+    font-size: 27pt;
+}
+.bike .card p{
+    color: rgb(0, 0, 0);
+}
+.bike .circle{
+    position: absolute;
+    background-color:rgb(255, 255, 11);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 200px;
+    border-radius: 50%;
+text-align: center;
+align-items: center;
+h3{
+    font-size: 50pt;
+    position: absolute;
+    margin-left: 150px;
+    margin-bottom: 30px;
+     color: #db2044;
+}
+}
+.images{
+    margin-top: 10px;
+    margin: auto;
+}
+.image{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 5px;
+    margin-top: 5px;
+    color: white;
+}
+.images i{
+    position: relative;
+    background-color: #db2044;
+    height: 30px;
+    border-radius: 6px;
+    width: 100px;
+    color: greenyellow;
+    font-size: 17pt;
+    text-align: center;
+}  .images h1{
+    color: rgb(232, 243, 232);
+}
+
+
+.image  .info{
+    padding: 20px;
+}
+.cars{ 
+    
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient( to bottom,#db2044,#e233b8);
+}
+.cars .nav details summary{
+    color: #3ccbff;
+    
+}
+.cars .card{
+    background-image: linear-gradient( to bottom,#2f80ff,#3ccbff);
+ &-text{
+     margin: 5px auto;
+     text-align: center;
+     padding: 10px;
+    width: 80%;
+    color: #000000;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ }
+ %btn{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ }
+ &-header{
+     text-align: center;
+     color:#ffda64;
+     margin: 2px 0;
+ }
+ .btn{
+     width: 140px;
+color:white;
+@extend %btn;
+     padding: 5px;
+     margin: 5px auto;
+     &:hover{
+        background-color: gold;
+     }
+ }
+ span{
+     font-size: 16pt;
+     transition: .4s ease-in-out;
+     margin: auto;
+     color: rgb(255, 255, 255);
+     @extend %btn;
+     &:hover{
+        background-color: gold;
+     }
+ }
+}

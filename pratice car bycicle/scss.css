@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: italic;
+}
+
+.bycicleadd {
+  width: 100%;
+  position: relative;
+  background-image: url("img/nick-fewings-XXBgxhS_-vc-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bike {
+  display: none;
+  background-image: url("img/nick-fewings-XXBgxhS_-vc-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-top: 109px;
+}
+
+.bike img {
+  z-index: 23;
+}
+
+.bycicleadd .navbar {
+  background-color: white;
+  height: 100px;
+  width: 0;
+  overflow: hidden;
+}
+
+.bycicleadd .navbar a {
+  font-size: 24px;
+}
+
+.bycicleadd .navbar span {
+  color: #3ccbff;
+}
+
+li a {
+  text-transform: capitalize;
+}
+
+.bike .card {
+  background-image: url("img/nick-fewings-XXBgxhS_-vc-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bike .card h1 {
+  color: #db2044;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #3ccbff;
+}
+
+.bike .card h2 {
+  color: #006eff;
+  text-transform: uppercase;
+}
+
+.bike h3 {
+  text-align: center;
+  position: relative;
+  font-size: 27pt;
+}
+
+.bike .card p {
+  color: black;
+}
+
+.bike .circle {
+  position: absolute;
+  background-color: #ffff0b;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 150px;
+  margin-left: 200px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bike .circle h3 {
+  font-size: 50pt;
+  position: absolute;
+  margin-left: 150px;
+  margin-bottom: 30px;
+  color: #db2044;
+}
+
+.images {
+  margin-top: 10px;
+  margin: auto;
+}
+
+.image {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin: 5px;
+  margin-top: 5px;
+  color: white;
+}
+
+.images i {
+  position: relative;
+  background-color: #db2044;
+  height: 30px;
+  border-radius: 6px;
+  width: 100px;
+  color: greenyellow;
+  font-size: 17pt;
+  text-align: center;
+}
+
+.images h1 {
+  color: #e8f3e8;
+}
+
+.image .info {
+  padding: 20px;
+}
+
+.cars {
+  position: relative;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#db2044), to(#e233b8));
+  background-image: linear-gradient(to bottom, #db2044, #e233b8);
+}
+
+.cars .nav details summary {
+  color: #3ccbff;
+}
+
+.cars .card {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f80ff), to(#3ccbff));
+  background-image: linear-gradient(to bottom, #2f80ff, #3ccbff);
+}
+
+.cars .card-text {
+  margin: 5px auto;
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  color: #000000;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cars .card .btn, .cars .card span {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cars .card-header {
+  text-align: center;
+  color: #ffda64;
+  margin: 2px 0;
+}
+
+.cars .card .btn {
+  width: 140px;
+  color: white;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.cars .card .btn:hover {
+  background-color: gold;
+}
+
+.cars .card span {
+  font-size: 16pt;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  margin: auto;
+  color: white;
+}
+
+.cars .card span:hover {
+  background-color: gold;
+}
+/*# sourceMappingURL=scss.css.map */
